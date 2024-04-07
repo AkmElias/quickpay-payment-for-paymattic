@@ -1,4 +1,5 @@
 === QuickPay Payment for Paymattic ===
+
 Contributors: wpmanageninja, akmelias, hasanuzzamanshamim
 Tags: payment form, donations, recurring-payments, payments, Lithuania, Malta, Slovenia, Romania, Norway, Northern Europe
 Requires at least: 4.5.2
@@ -11,6 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Accept simple payments and donations with QuickPay payment using Paymattic.
 
 == Description ==
+
 QuickPay payment for Paymattic is a supplementary add-on for Paymattic to integrate QuickPay payment gateway on your website. If you want to receive payments on your website with the QuickPay payment gateway, install the Paymattic plugin and activate the QuickPay module. Paymattic will automatically install this add-on for Paymattic.
 QuickPay is a popular payment gateway among Lithuania, Malta, Slovenia, Romania, Norway and Northern Europe region.
 
