@@ -24,10 +24,10 @@ if (!defined('ABSPATH')) {
 
 defined('ABSPATH') or die;
 
-define('MONERIS_PAYMENT_FOR_PAYMATTIC', true);
-define('MONERIS_PAYMENT_FOR_PAYMATTIC_DIR', __DIR__);
-define('MONERIS_PAYMENT_FOR_PAYMATTIC_URL', plugin_dir_url(__FILE__));
-define('MONERIS_PAYMENT_FOR_PAYMATTIC_VERSION', '1.0.0');
+define('QUICKPAY_PAYMENT_FOR_PAYMATTIC', true);
+define('QUICKPAY_PAYMENT_FOR_PAYMATTIC_DIR', __DIR__);
+define('QUICKPAY_PAYMENT_FOR_PAYMATTIC_URL', plugin_dir_url(__FILE__));
+define('QUICKPAY_PAYMENT_FOR_PAYMATTIC_VERSION', '1.0.0');
 
 
 if (!class_exists('QuickPayPaymentForPaymattic')) {
@@ -35,7 +35,7 @@ if (!class_exists('QuickPayPaymentForPaymattic')) {
     {
         public function boot()
         {
-            if (!class_exists('MonerisPaymentForPaymattic\API\QuickPayProcessor.php')) {
+            if (!class_exists('QuickPayPaymentForPaymattic\API\QuickPayProcessor.php')) {
                 $this->init();
             };
         }
